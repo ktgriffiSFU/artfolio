@@ -8,7 +8,9 @@
 
 #import "AppDelegate.h"
 #import "TakePhotoViewController.h"
+#import "ProfileViewController.h"   
 @interface AppDelegate ()
+@property(nonatomic, copy) NSArray < UIViewController *> *viewControllers;
 
 @end
 
@@ -16,11 +18,16 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-   // self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    // Override point for customization after application launch.
-   // self.viewController = [[TakePhotoViewController alloc] init];
-   // self.window.rootViewController = self.viewController;
-  //  [self.window makeKeyAndVisible];
+ //   tabBarController = [[UITabBarController alloc] init];
+    
+//    TakePhotoViewController* vc1 = [[TakePhotoViewController alloc] init];
+//    ProfileViewController* vc2 = [[ProfileViewController alloc] init];
+//    
+//    NSArray* controllers = [NSArray arrayWithObjects:vc1, vc2, nil];
+//    UITabBarController.viewControllers = controllers;
+//    window.rootViewController = tabBarController;
+}
+
     return YES;
 }
 
