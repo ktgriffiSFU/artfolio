@@ -10,7 +10,7 @@
 #import "TakePhotoViewController.h"
 #import "ProfileViewController.h"   
 @interface AppDelegate ()
-@property(nonatomic, copy) NSArray < UIViewController *> *viewControllers;
+//@property(nonatomic, copy) NSArray < UIViewController *> *viewControllers;
 
 @end
 
@@ -26,7 +26,7 @@
 //    NSArray* controllers = [NSArray arrayWithObjects:vc1, vc2, nil];
 //    UITabBarController.viewControllers = controllers;
 //    window.rootViewController = tabBarController;
-}
+
 
     return YES;
 }
